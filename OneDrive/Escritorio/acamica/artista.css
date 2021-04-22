@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri, Trebuchet MS, sans-serif;
+    font-size: 16px;
+  }
+  
+nav li {
+    list-style-type: none;
+
+  }
+
+  h1,h2 {
+    color: red;
+    text-align: center;
+    font-size: 24px;
+}
+
+p{
+    color: gray;
+    font-size: 16px;
+}
+
+form {
+    border: 15px solid blue;
+    padding: 10px;
+}

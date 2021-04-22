@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera página</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <h1 id="nombre"> Néstor Oswaldo Díaz Arango</h1>
+  <h6 id="fecha_nacimiento"> 10/02/1970</h6>
+  <p id="descripcion"> Me gusta la literatura, el arte , la música, una buena  charla, un  café... </p>
+  
+  <script>
+    nombre = document.getElementById('nombre');
+    nombre.addEventListener ("click", function() {alert ("Bienvenido a mi sitio web ") } );
+
+    descripcion = document.getElementById ('descripcion');
+    descripcion.addEventListener("mouseenter", function(){
+       descripcion.style.color = "black";
+       descripcion.style.backgroundColor = "white";
+    });
+
+    descripcion.addEventListener("mouseout", function(){
+       descripcion.style.color = "white";
+       descripcion.style.backgroundColor = "black";
+    });
+  </script>
+</body>
+</html>
